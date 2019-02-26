@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="13" timestamp="2019-02-25 20:29:31" hostname="Administrator - ip-172-20-128-1.ec2.internal" id="Test Suites/Day3/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\DemoProject1\\Reports\\Day3\\TestSuite1\\20190225_202928"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\DemoProject1\\Reports\\Day3\\TestSuite1\\20190225_202928\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - ip-172-20-128-1.ec2.internal"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="172.20.128.1"/>
+         <property name="sessionId" value="034d3ec3052ec539109ba41e12aa8583"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/Day3/Test2" classname="Test Cases/Day3/Test2" status="PASSED">
+         <system-out><![CDATA[2019-02-25 20:29:31 - [TEST_CASE][PASSED] - Test Cases/Day3/Test2: Test Cases/Day3/Test2
+
+2019-02-25 20:29:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-25 20:29:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-25 20:29:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-25 20:29:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-25 20:29:37 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/login' successfully
+
+2019-02-25 20:29:38 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/login' successfully
+
+2019-02-25 20:29:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/span_Username")): Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2019-02-25 20:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2019-02-25 20:29:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), USERNAME): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-02-25 20:29:39 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-02-25 20:29:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), PASSWORD): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-02-25 20:29:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-02-25 20:29:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-02-25 20:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-02-25 20:29:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/b_Admin")): Object: 'Object Repository/Page_OrangeHRM/b_Admin' is clicked on
+
+2019-02-25 20:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_Admin' is clicked on
+
+2019-02-25 20:29:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-25 20:29:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-25 20:29:31 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Day3/Test2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

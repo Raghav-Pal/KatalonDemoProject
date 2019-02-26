@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 71.0.3578.98,,2019-02-13 21:04:41,2019-02-13 21:05:05,24.504s,FAILED
+,,,,,,
+Test Cases/Day2/Test1,Chrome 71.0.3578.98,,2019-02-13 21:04:41,2019-02-13 21:04:50,9.129s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-13 21:04:41,2019-02-13 21:04:45,3.470s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/login"")",Chrome 71.0.3578.98,,2019-02-13 21:04:45,2019-02-13 21:04:45,0.535s,PASSED
+"click(findTestObject(""Page_OrangeHRM/span_Username""))",Chrome 71.0.3578.98,,2019-02-13 21:04:45,2019-02-13 21:04:45,0.143s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 71.0.3578.98,,2019-02-13 21:04:45,2019-02-13 21:04:46,0.182s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 71.0.3578.98,,2019-02-13 21:04:46,2019-02-13 21:04:46,0.188s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Chrome 71.0.3578.98,,2019-02-13 21:04:46,2019-02-13 21:04:47,0.990s,PASSED
+"click(findTestObject(""Page_OrangeHRM/b_Admin""))",Chrome 71.0.3578.98,,2019-02-13 21:04:47,2019-02-13 21:04:47,0.559s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_searchSystemUse""), ""Admin"")",Chrome 71.0.3578.98,,2019-02-13 21:04:47,2019-02-13 21:04:48,0.168s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Status__search""))",Chrome 71.0.3578.98,,2019-02-13 21:04:48,2019-02-13 21:04:48,0.329s,PASSED
+"click(findTestObject(""Page_OrangeHRM/b_Leave""))",Chrome 71.0.3578.98,,2019-02-13 21:04:48,2019-02-13 21:04:48,0.556s,PASSED
+"click(findTestObject(""Page_OrangeHRM/b_Dashboard""))",Chrome 71.0.3578.98,,2019-02-13 21:04:48,2019-02-13 21:04:49,0.351s,PASSED
+"click(findTestObject(""Page_OrangeHRM/b_Maintenance""))",Chrome 71.0.3578.98,,2019-02-13 21:04:49,2019-02-13 21:04:49,0.364s,PASSED
+"click(findTestObject(""Page_OrangeHRM/a_Welcome Admin""))",Chrome 71.0.3578.98,,2019-02-13 21:04:49,2019-02-13 21:04:49,0.102s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/a_Logout""), 5)",Chrome 71.0.3578.98,,2019-02-13 21:04:49,2019-02-13 21:04:49,0.050s,PASSED
+"click(findTestObject(""Page_OrangeHRM/a_Logout""))",Chrome 71.0.3578.98,,2019-02-13 21:04:49,2019-02-13 21:04:50,0.379s,PASSED
+click(findTestObject(null)),Chrome 71.0.3578.98,,2019-02-13 21:04:50,2019-02-13 21:04:50,0.333s,FAILED
+,,,,,,
+Test Cases/Day2/Test2,Chrome 71.0.3578.98,,2019-02-13 21:04:50,2019-02-13 21:05:04,14.282s,ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-13 21:04:50,2019-02-13 21:04:53,2.882s,PASSED
+"navigateToUrl(""http://lifecharger.org/"")",Chrome 71.0.3578.98,,2019-02-13 21:04:53,2019-02-13 21:04:56,2.892s,PASSED
+"click(findTestObject(""Page_Life Charger   a new beginning/a_Break It Win It""))",Chrome 71.0.3578.98,,2019-02-13 21:04:56,2019-02-13 21:04:58,1.723s,PASSED
+"click(findTestObject(""Object Repository/Page_Break It Win It  Life Charger/a_Home""))",Chrome 71.0.3578.98,,2019-02-13 21:04:58,2019-02-13 21:05:00,2.169s,PASSED
+"click(findTestObject(""Page_Life Charger   a new beginning/a_Archives""))",Chrome 71.0.3578.98,,2019-02-13 21:05:00,2019-02-13 21:05:02,2.275s,PASSED
+"click(findTestObject(""Object Repository/Page_Archives  Life Charger/h1_Life Charger""))",Chrome 71.0.3578.98,,2019-02-13 21:05:02,2019-02-13 21:05:04,1.959s,PASSED
+"setText(findTestObject(""Page_Life Charger   a new beginning/input_Search for_s""), ""life"")",Chrome 71.0.3578.98,,2019-02-13 21:05:04,2019-02-13 21:05:04,0.131s,PASSED
+"sendKeys(findTestObject(""Page_Life Charger   a new beginning/input_Search for_s""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-02-13 21:05:04,2019-02-13 21:05:04,0.009s,ERROR

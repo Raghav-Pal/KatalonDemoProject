@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite2,Chrome 72.0.3626.109,,2019-02-25 22:15:33,2019-02-25 22:16:53,1m - 19.677s,FAILED
+,,,,,,
+Test Cases/Day3/Test6,Chrome 72.0.3626.109,,2019-02-25 22:15:33,2019-02-25 22:15:43,9.554s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-25 22:15:34,2019-02-25 22:15:38,3.864s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/login"")",Chrome 72.0.3626.109,,2019-02-25 22:15:38,2019-02-25 22:15:38,0.731s,PASSED
+"click(findTestObject(""Page_OrangeHRM/span_Username""))",Chrome 72.0.3626.109,,2019-02-25 22:15:38,2019-02-25 22:15:39,0.146s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 72.0.3626.109,,2019-02-25 22:15:39,2019-02-25 22:15:39,0.171s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 72.0.3626.109,,2019-02-25 22:15:39,2019-02-25 22:15:40,0.903s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Chrome 72.0.3626.109,,2019-02-25 22:15:40,2019-02-25 22:15:41,1.017s,PASSED
+"click(findTestObject(""Page_OrangeHRM/b_Admin""))",Chrome 72.0.3626.109,,2019-02-25 22:15:41,2019-02-25 22:15:41,0.738s,PASSED
+"click(findTestObject(""Page_OrangeHRM/b_Dashboard""))",Chrome 72.0.3626.109,,2019-02-25 22:15:41,2019-02-25 22:15:42,0.315s,PASSED
+"click(findTestObject(""Page_OrangeHRM/a_Welcome Admin""))",Chrome 72.0.3626.109,,2019-02-25 22:15:42,2019-02-25 22:15:42,0.254s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/a_Logout""), 5)",Chrome 72.0.3626.109,,2019-02-25 22:15:42,2019-02-25 22:15:42,0.057s,PASSED
+"click(findTestObject(""Page_OrangeHRM/a_Logout""))",Chrome 72.0.3626.109,,2019-02-25 22:15:42,2019-02-25 22:15:42,0.289s,PASSED
+closeBrowser(),Chrome 72.0.3626.109,,2019-02-25 22:15:42,2019-02-25 22:15:43,0.652s,PASSED
+,,,,,,
+Test Cases/Day3/Test6,Chrome 72.0.3626.109,,2019-02-25 22:15:43,2019-02-25 22:16:17,34.268s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-25 22:15:43,2019-02-25 22:15:45,2.211s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/login"")",Chrome 72.0.3626.109,,2019-02-25 22:15:45,2019-02-25 22:15:46,0.575s,PASSED
+"click(findTestObject(""Page_OrangeHRM/span_Username""))",Chrome 72.0.3626.109,,2019-02-25 22:15:46,2019-02-25 22:15:46,0.111s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 72.0.3626.109,,2019-02-25 22:15:46,2019-02-25 22:15:46,0.130s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 72.0.3626.109,,2019-02-25 22:15:46,2019-02-25 22:15:46,0.126s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Chrome 72.0.3626.109,,2019-02-25 22:15:46,2019-02-25 22:15:46,0.225s,PASSED
+"click(findTestObject(""Page_OrangeHRM/b_Admin""))",Chrome 72.0.3626.109,,2019-02-25 22:15:46,2019-02-25 22:16:17,30.878s,FAILED
+,,,,,,
+Test Cases/Day3/Test6,Chrome 72.0.3626.109,,2019-02-25 22:16:17,2019-02-25 22:16:52,34.879s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.109,,2019-02-25 22:16:17,2019-02-25 22:16:20,2.920s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/login"")",Chrome 72.0.3626.109,,2019-02-25 22:16:20,2019-02-25 22:16:21,0.485s,PASSED
+"click(findTestObject(""Page_OrangeHRM/span_Username""))",Chrome 72.0.3626.109,,2019-02-25 22:16:21,2019-02-25 22:16:21,0.119s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 72.0.3626.109,,2019-02-25 22:16:21,2019-02-25 22:16:21,0.142s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 72.0.3626.109,,2019-02-25 22:16:21,2019-02-25 22:16:21,0.119s,PASSED
+"click(findTestObject(""Page_OrangeHRM/input_Password_Submit""))",Chrome 72.0.3626.109,,2019-02-25 22:16:21,2019-02-25 22:16:21,0.244s,PASSED
+"click(findTestObject(""Page_OrangeHRM/b_Admin""))",Chrome 72.0.3626.109,,2019-02-25 22:16:21,2019-02-25 22:16:52,30.831s,FAILED
